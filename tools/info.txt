@@ -1,0 +1,1 @@
+https://3000-firebase-tims-d-eng-1755231233716.cluster-nzwlpk54dvagsxetkvxzbvslyi.cloudworkstations.dev/dags/simple_etl/grid?task_id=load&dag_run_id=manual__2025-08-15T05%3A36%3A50.882662%2B00%3A00&tab=logs
