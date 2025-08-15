@@ -1,0 +1,25 @@
+# Ignore all log files
+*.log
+
+# Ignore Python virtual environments
+*-venv/
+etl-venv/
+airflow-venv/
+
+# Ignore Python cache
+__pycache__/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Python egg files
+*.egg-info/
+dist/
+build/

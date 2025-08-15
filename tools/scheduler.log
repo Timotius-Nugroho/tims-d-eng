@@ -459,3 +459,18 @@ X-Goog-Workstations-Endpoint: workstations-43fcb701-1070-467e-a4ea-a508ea0849a3.
 .[0m
 [[34m2025-08-15T05:46:07.829+0000[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
 [[34m2025-08-15T05:51:08.103+0000[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2025-08-15T05:56:08.200+0000[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2025-08-15T06:01:08.491+0000[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2025-08-15T06:06:08.670+0000[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2025-08-15T06:10:33.855+0000[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2025-08-15T06:10:34.873+0000[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending 15 to group 5036. PIDs of all processes in the group: [5036][0m
+[[34m2025-08-15T06:10:34.882+0000[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal 15 to group 5036[0m
+[[34m2025-08-15T06:10:35.062+0000[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=5036, status='terminated', exitcode=0, started='04:36:02') (5036) terminated with exit code 0[0m
+[[34m2025-08-15T06:10:35.073+0000[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending 15 to group 5036. PIDs of all processes in the group: [][0m
+[[34m2025-08-15T06:10:35.073+0000[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal 15 to group 5036[0m
+[[34m2025-08-15T06:10:35.074+0000[0m] {[34mprocess_utils.py:[0m101} INFO[0m - Sending the signal 15 to process 5036 as process group is missing.[0m
+[[34m2025-08-15T06:10:35.075+0000[0m] {[34mscheduler_job_runner.py:[0m875} INFO[0m - Exited execute loop[0m
+[2025-08-15 06:10:35 +0000] [5034] [INFO] Handling signal: term
+[2025-08-15 06:10:35 +0000] [5037] [INFO] Worker exiting (pid: 5037)
+[2025-08-15 06:10:35 +0000] [5035] [INFO] Worker exiting (pid: 5035)
+[2025-08-15 06:10:35 +0000] [5034] [INFO] Shutting down: Master
